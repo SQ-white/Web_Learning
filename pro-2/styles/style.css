@@ -1,0 +1,60 @@
+body{
+	background-color: #0f152B;
+}
+.header{
+	background-color: #0c1326;
+	color: white;
+	text-align: center;
+	padding:30px;
+}
+
+.nav{
+	line-height: 30px;
+	background-color: #0f152B;
+	color:white;
+	width:25%;
+	float: right;
+}
+
+.section{
+	background-color: white;
+	width:65%;
+	float: left;
+	padding:50px;
+}
+
+.right{
+	padding-left: 20px;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding:5px;
+}
+
+.left_li{
+	border-bottom: 1px solid #CFCCC4;
+	text-decoration: underline;
+	width:60%;
+}
+
+dt{
+	font-size: 20px;
+}
+
+dd{
+	font-size: 14px;
+}
+
+blockquote{
+	font-style: italic;
+}
+
+h4{
+	background-color: #3554A6;
+	padding:10px;
+	font-size: 18px;
+}
