@@ -8,16 +8,22 @@
 	
 	<body class="main">
 		
+<!--		标题栏-->
+		
 		<div class="header">
 			<h1>LEARNING HTML AND CSS</h1>
+			<p>This is project 2.</p>
 		</div>
+		
+		
+<!--		目录-->
 		
 		<div class="nav">
 			<h4>HTML and CSS Basic</h4>
 			<ul>
 				<li class="left_li">注释</li>
 				<li class="left_li">网页的标题</li>
-				<li class="left_li">元数据</li>
+				<li class="left_li">网页元数据</li>
 				<li class="left_li">段落</li>
 				<li class="left_li">换行符</li>
 				<li class="left_li">标题</li>
@@ -36,8 +42,17 @@
 		</div>
 		
 		<div class="right">
+			
+			
+<!--			左侧大板块-->
+			
 		<div class="section">
+			
+<!--			第一章-->
+			
 			<h2>HTML and CSS Basic</h2>
+			
+<!--			注释-->
 			
 			<dl>
 				<dt>注释</dt>
@@ -72,14 +87,101 @@
 				</dd>
 				
 				
+			</dl>
+			
+			
+<!--			网页的标题<title>-->
+			
+			
+			<dl>
 				<dt>网页的标题</dt>
-				<dd></dd>
+				<dd><br />描述该网页的标题 <br />
+					<ul>
+						<li>放在网页的head部分里面</li>
+						<li>在浏览器的标题栏显示并且作为收藏网页时的标题</li>
+					</ul><br />
+					W3School的解释
+					<blockquote><q> &lt;title&gt; 元素可定义文档的标题。
+
+浏览器会以特殊的方式来使用标题，并且通常把它放置在浏览器窗口的标题栏或状态栏上。同样，当把文档加入用户的链接列表或者收藏夹或书签列表时，标题将成为该文档链接的默认名称。</q></blockquote>
+					实例代码：
+					<code><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;title&gt;我的第一个 HTML 页面&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;p&gt;body 元素的内容会显示在浏览器中。&lt;/p&gt;
+
+&lt;p&gt;title 元素的内容会显示在浏览器的标题栏中。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+					</pre></code>
+				</dd>
+				
+				
+			</dl>
+			
+			<!--			网页元数据-->
+			
+			
+			<dl>
+				<dt>网页元数据</dt>
+				<dd><br />描述网页元数据<br />
+					<ul>
+						<li>放在网页的head部分里面</li>
+						<li>字符编码(chartset) 在实际操作中非常重要, 我们通常采用 utf-8 编码而不是英文编码
+</li>
+					</ul><br />
+					W3School的解释
+					<blockquote><q> &lt;meta&gt;  元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词。
+
+&lt;meta&gt; 标签位于文档的头部，不包含任何内容。&lt;meta&gt; 标签的属性定义了与文档相关联的名称/值对。
+
+浏览器会以特殊的方式来使用标题，并且通常把它放置在浏览器窗口的标题栏或状态栏上。同样，当把文档加入用户的链接列表或者收藏夹或书签列表时，标题将成为该文档链接的默认名称。</q></blockquote>
+					注释：&lt;meta&gt;标签永远位于 head 元素内部。<br /><br />
+					
+					实例代码：
+					<code><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=gb2312" /&gt;
+&lt;meta name="author"
+content="w3school.com.cn"&gt;
+&lt;meta name="revised"
+content="David Yang,8/1/07"&gt;
+&lt;meta name="generator"
+content="Dreamweaver 8.0en"&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;p&gt;本文档的 meta 属性标识了创作者和编辑软件。&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+					</pre></code>
+				</dd>
+				
+				
 			</dl>
 		</div>
+			
+
+			
+			
+			
+			
 		</div>
 		
 		<div class="footer">
-			没错，就是陈素琪写的。
+			DESIGN BY SUKI
 		</div>
 		
 	</body>
