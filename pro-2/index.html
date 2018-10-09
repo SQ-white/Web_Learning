@@ -21,12 +21,12 @@
 		<div class="nav">
 			<h4>HTML and CSS Basic</h4>
 			<ul>
-				<li class="left_li">注释</li>
-				<li class="left_li">网页的标题</li>
-				<li class="left_li">网页元数据</li>
-				<li class="left_li">段落</li>
-				<li class="left_li">换行符</li>
-				<li class="left_li">标题</li>
+				<li class="left_li"><a href="#one">注释</a></li>
+				<li class="left_li"><a href="#title">网页的标题</a></li>
+				<li class="left_li"><a href="#meta">网页元数据</a></li>
+				<li class="left_li"><a href="#paragraph">段落</a></li>
+				<li class="left_li"><a href="#br">换行符</a></li>
+				<li class="left_li"><a href="#hx">标题</a></li>
 				<li class="left_li">水平线</li>
 				<li class="left_li">链接</li>
 				<li class="left_li">图像</li>
@@ -54,7 +54,7 @@
 			
 <!--			注释-->
 			
-			<dl>
+			<dl id="one">
 				<dt>注释</dt>
 				<dd><br />为你的HTML文件加入注释或者 “添加注释” 文本 <br />
 					<ul>
@@ -93,7 +93,7 @@
 <!--			网页的标题<title>-->
 			
 			
-			<dl>
+			<dl id="title">
 				<dt>网页的标题</dt>
 				<dd><br />描述该网页的标题 <br />
 					<ul>
@@ -130,7 +130,7 @@
 			<!--			网页元数据-->
 			
 			
-			<dl>
+			<dl id="meta">
 				<dt>网页元数据</dt>
 				<dd><br />描述网页元数据<br />
 					<ul>
@@ -169,6 +169,92 @@ content="Dreamweaver 8.0en"&gt;
 					</pre></code>
 				</dd>
 				
+				
+			</dl>
+			
+			<!--			段落-->
+			
+			<dl id="paragraph">
+				<dt>段落</dt>
+				<dd><br />标签定义段落。 <br />
+			<br />
+					W3School的解释
+					<blockquote><q>p 元素会自动在其前后创建一些空白。浏览器会自动添加这些空间，您也可以在样式表中规定。</q></blockquote>
+					实例代码：
+					<code><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;body&gt;
+
+&lt;p&gt;这是一个段落。&lt;/p&gt;
+&lt;p&gt;这是一个段落。&lt;/p&gt;
+&lt;p&gt;这是一个段落。&lt;/p&gt;
+
+&lt;p&gt;段落元素由 p 标签定义。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+					</pre></code>
+				</dd>
+				
+			</dl>
+			
+			<!--			换行符-->
+			
+			<dl id="br">
+				<dt>换行符</dt>
+				<dd><br />在块元素中强制换行（内联） <br />
+			<br />
+					W3School的解释
+					<blockquote><q>在 XHTML 中，把结束标签放在开始标签中，也就是 &lt;br /&gt;。</q></blockquote>
+					实例代码：
+					<code><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;body&gt;
+
+&lt;p&gt;To break&lt;br /&gt;lines&lt;br /&gt;in a&lt;br /&gt;paragraph,&lt;br /&gt;use the br tag.&lt;/p&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+					</pre></code>
+				</dd>
+				
+			</dl>
+			
+			<!--			标题-->
+			
+			<dl id="hx">
+				<dt>标题</dt>
+				<dd><br />在网页中定义标题来分隔主区域（块）
+ <br />
+			<br />
+					W3School的解释
+					<blockquote><q>由于 h 元素拥有确切的语义，因此请您慎重地选择恰当的标签层级来构建文档的结构。因此，请不要利用标题标签来改变同一行中的字体大小。相反，我们应当使用层叠样式表定义来达到漂亮的显示效果。</q></blockquote>
+					实例代码：
+					<code><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;body&gt;
+
+&lt;h1&gt;This is heading 1&lt;h1&gt;
+&lt;h2&gt;This is heading 2&lt;h2&gt;
+&lt;h3&gt;This is heading 3&lt;h3&gt;
+&lt;h4&gt;This is heading 4&lt;h4&gt;
+&lt;h5&gt;This is heading 5&lt;h5&gt;
+&lt;h6&gt;This is heading 6&lt;h6&gt;
+
+&lt;p&gt;请仅仅把标题标签用于标题文本。不要仅仅为了产生粗体文本而使用它们。请使用其它标签或 CSS 代替。&lt;/p&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+					</pre></code>
+				</dd>
 				
 			</dl>
 		</div>

@@ -4,7 +4,6 @@ body{
 .header{
 	background-color: #0c1326;
 	color: white;
-	text-align: center;
 	padding:30px;
 	font-family: Helvetica;
 	text-align: left;
@@ -76,3 +75,7 @@ h2{
 	font-weight:bold;
 }
 
+a:link {color:white}
+a:visited{color:white}
+a:hover{color: blue}
+a:active{color:blue}
