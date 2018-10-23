@@ -96,9 +96,21 @@ var Secretary_C = objectPlus(list[6],{
 })
 
 
-//test
-//var m = Manager;
-//m.getInteriors();
+//测试代码
+//var a = Manager_A;
+//a.getInteriors();
+//var b = Manager_B;
+//b.getInteriors();
+//var c = Manager_C;
+//c.getInteriors();
+//var sa = Secretary_A;
+//sa.getSuperior();
+//var sb = Secretary_B;
+//sb.getSuperior();
+//var sc = Secretary_C;
+//sc.getSuperior();
+//var l = list;
+//l;
 
 
 

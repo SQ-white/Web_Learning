@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>pro-5</title>
+	<link href="styles/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--	<p>2333333</p>-->
+<div id="to-do" class="content">
+	<form>
+		<h2>添加待办事项：</h2>
+		<textarea id="add_content" placeholder="Add something to do here"></textarea><br><br>
+		<div class="add">
+			<a id="add_button" href="#" onclick="add()">Add</a>
+		</div>
+		
+		<h3>待办事项：</h3>
+		<div class="choice">
+			<ul id="list">
+				<li class="card"><input name="box" id="card" type="checkbox" >吃饭</li>
+				<li class="card"><input name="box" id="card" type="checkbox" >吃饭</li>
+				<li class="card"><input name="box" id="card" type="checkbox" >吃饭</li>
+				<li class="card"><input name="box" id="card" type="checkbox" >吃饭</li>
+				<li class="card"><input name="box" id="card" type="checkbox" >吃饭</li>
+			</ul>
+		</div>
+	</form>
+	<br>
+	<br>
+	
+<!--	全选、反全选、删除三个按钮-->
+	<div class="bottom">
+		<a id="selectAll" href="#" onclick="select_all()">select all</a>
+		<a id="deselectAll" href="#" onclick="deselect_all()">deselect all</a>
+		<a id="remove" href="#" onclick="move()">remove</a>
+	</div>
+	</div>
+
+  
+	<script src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js"></script>
+	<script type="text/javascript" src="./scripts/index.js"></script>
+</body>
+</html>
